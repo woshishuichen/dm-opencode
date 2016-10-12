@@ -1,0 +1,85 @@
+/*本模板由DM建站系统 www.demososo.com开发
+*/
+
+ /*菜单部分
+.menu,.menu li.m{ background:#008ED6; }
+.menu a.m{color:#fff;}
+.menu a.m:hover{color: #fff;background:#12A7ED; }
+ 
+.menu li li a{color:#e2e2e2;border-bottom:1px solid  #7ECFF5;  background:#12A7ED; }
+.menu li li a:hover{background:#42B8F0; }
+
+ a.m .sf-sub-indicator { background-position: 0 -100px;} 
+li.m li .sf-sub-indicator {	background-position:-0px  0px; }
+
+li.sfHover .sf-sub-indicator {background-position: -0px  -100px;}
+li.sfHover li.sfHover .sf-sub-indicator {	background-position: -0px  0px; }
+
+.menuright,.menuright li.m{background:none; }
+.menuright a.m{color:#333;}
+.menuright a.m:hover,.menuright li.sfHover a.m{color: #fff;background:#43BDF8; }
+.menuright li li a{color:#fff;border-bottom:1px solid #43BDF8;  background:#20B3F6; }
+.menuright li li a:hover{ background:#43BDF8; color: #fff; }
+@media (max-width: 800px) {
+.menuright,.menuright li.m{background:#0783BE;}
+.menuright a.m{color:#fff}
+.menuright li.m{border-bottom:1px solid #044D6F }
+}*/
+
+/*页面链接颜色
+body{color:#000; background:#ACDAF2}
+a{color:#666;text-decoration:none; }
+a:hover{color:#3DA8E0}
+*/
+/*headerwrap 
+#headerwrap{background:url(bg/bghead.jpg)  repeat-x ; }
+*/
+.headertop{background:#E6E4E4;height: 30px;line-height: 30px}
+.header{background:url(bg/bghead.jpg)  repeat-x ; }
+.headerright{background:#fff; border-bottom:2px solid #eee;}
+.footer{background:#55C8FF;color: #DEF0FA }
+.header a{color: #999}
+.footer a{color: #DEF0FA}
+.header a:hover,.footer a:hover{color: #3DA8E0}
+
+.bannerwrap{background: #fff}
+
+/*.topsearch .searchbtn*/ 
+.topsearch .searchbtn{background: #008ED6;color:#fff; }
+
+/*boxheader*/ 
+  .boxheader{background:#3DA8E0;}
+  .boxheader h3{color:#fff;border-left:5px solid #fff;}
+  .boxheader a{color:#fff;}
+  .boxheader a:hover{color:#197FCA;}
+/*cirimg*/ 
+.cirimg li img{box-shadow: 0px 0px 0px 7px  #D4D4D4;}
+.cirimg li img:hover{box-shadow: 0px 0px 0px 7px #3DA8E0;}
+/*.news_scroll*/
+.news_scroll .circle{ background:#008ED6; color:#fff;}
+/*sidebar侧边栏*/ 
+ .sidebar{background:#fff; }
+ .sdheader{background:#008ED6; color: #fff; }
+ .sdcontent li {border-bottom:1px solid #e2e2e2; }
+.sdcontent li a{background:#fff url(bg/arr8.png) 5px 50% no-repeat ;}
+.sdcontent li li a{background:#fff url(bg/arrow.png) 5px 50% no-repeat ;}
+
+/*content_header*/ 
+.content_header h3{border-left: 5px solid #008ED6;}
+.content_header{border-top: 0px solid #008ED6;border-bottom: 1px solid #008ED6; }
+
+/*gridlist*/ 
+.gridlist  li,.albumlist li{border:1px solid #ccc;}
+ 
+/*textlist*/ 
+.textlist  li{border-bottom:1px solid #ccc;}
+.textlist .day{color:#999;}
+.textlist .textshort{color:#999;}
+/*****pageroll**********/
+.pageroll a,.pageroll span{border:1px solid #ddd;background:#e2e2e2;color:#39A7DF;}
+.pageroll span{color:#bbb}
+.pageroll a.cur,.pageroll a:hover{color:#fff;background:#39A7DF} 
+
+/*color*/
+ .color_bg{background:#008ED6;color:#fff;}
+  .color_border{border-color: #008ED6}

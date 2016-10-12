@@ -1,0 +1,8 @@
+/*本模板由DM建站系统 www.demososo.com开发
+*/
+
+.pagewrap{width: 1200px;border:0px solid red;margin:0 auto;  }
+.sdwidth{width: 300px;  overflow:hidden;}
+.cntwidth{width: 880px; overflow:hidden; }
+
+.menufix,.headerrightfix{width: 1200px; }

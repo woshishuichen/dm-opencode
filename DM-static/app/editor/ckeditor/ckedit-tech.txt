@@ -1,0 +1,10 @@
+ckeditor 模块中自定义class
+在ckeditor模块中，编辑内容时，
+在源码中填写<div class="myclass">some content</div>，ckeditor不会帮你保存class，
+成为：<div >some content</div>，解决方法如下：
+在这个路径下：admin/config/content/ckeditor/edit/Full
+高级选项中：Custom JavaScript configuration：填写：
+config.allowedContent = true;并保存配置：
+
+http://stackoverflow.com/questions/15659390/ckeditor-automatically-strips-classes-from-div
+

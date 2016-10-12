@@ -1,0 +1,1 @@
+为什么 要 subadd，因为subedit时，编辑器要有pidname，所以要先add

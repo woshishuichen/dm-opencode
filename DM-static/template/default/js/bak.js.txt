@@ -1,0 +1,41 @@
+ //-----------------
+ function popup(v){
+ 	var popcontent  = '<div class="popcontent"> <span class="popclose"></span> '+v+'</div>';
+ 	var bgmask  = '<div class="bgmask"> </div>';
+
+    $('body').append(bgmask);
+     $('body').append(popcontent);
+ 
+  popupName = $('.popcontent');
+ var _scrollHeight = $(document).scrollTop(),//获取当前窗口距离页面顶部高度
+     _windowH = $(window).height(),//获取当前窗口高度
+     _windowW = $(window).width(),//获取当前窗口宽度
+     _popupH = popupName.height(),//获取弹出层高度
+     _popupW = popupName.width()+40;//获取弹出层宽度
+     _posiTop = (_windowH - _popupH)/2 + _scrollHeight;
+     _posiLeft = (_windowW - _popupW)/2;
+ popupName.css({"left": _posiLeft + "px","top":_posiTop + "px","display":"block"});//设置position
+  bgH = $("body").height();
+   $('.bgmask').css({height:bgH+'px'}); 
+
+
+
+ }
+ 
+$(window).bind('scroll',function(){
+    parallaxScroll();
+     
+  });
+
+
+
+ /*
+function parallaxScroll(){ //
+    var scrolled = $(window).scrollTop();
+    var parav = 'center '+ (0-(scrolled*.75))+'px';
+    $("[data-type='imgpara']").css('background-position',parav);
+    //$('#parallax_area2').css('top',(0-(scrolled*.5))+'px');
+    //$('#parallax_area3').css('top',(0-(scrolled*.25))+'px');
+  };
+*/
+

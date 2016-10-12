@@ -1,0 +1,44 @@
+/*本模板由DM建站系统 www.demososo.com开发
+*/
+#fullscreenslide1{position:relative}
+#fullscreenslide1 .slides-container{display:none}
+#fullscreenslide1 .scrollable{*zoom:1;position:relative;top:0;left:0;overflow-y:auto;-webkit-overflow-scrolling:touch;height:100%}
+#fullscreenslide1 .scrollable:after{content:"";display:table;clear:both}
+.slides-navigation{margin:0 auto;position:absolute;z-index:3;top:46%;width:100%}
+.slides-navigation a{position:absolute;top:50%;margin-top:-35px;outline:0;width:40px;height:70px;text-indent:-9999px;z-index:80}
+.slides-navigation a.prev{left:10px;background:url(bannerarrow2.png) no-repeat 0 0px}
+.slides-navigation a.next{right:10px;background:url(bannerarrow2.png) no-repeat -50px 0px}
+.slides-pagination{position:absolute;z-index:3;bottom:80px;text-align:center;width:100%}
+.slides-pagination a{border:2px solid #222;border-radius:15px;width:10px;height:10px;display:-moz-inline-stack;display:inline-block;vertical-align:middle;*vertical-align:auto;zoom:1;*display:inline;margin:2px;overflow:hidden;text-indent:-100%}
+.slides-pagination a.current{background:#222}
+.jumpdownarrow span{display:block;height:70px;width:120px;color:#FFF;text-align:center;font-size:70px;z-index:6;text-decoration:none;background:url(jumpdownarrow.png) 0 -20px no-repeat;background-size:100%;animation:sdb05 1.5s infinite;}
+
+ .jumpdownarrow{display:block; height:70px;width:120px;margin:0px 0 0 -40px;line-height:60px;position:absolute;z-index:6;left:50%;bottom:6px;background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;    }
+
+@-webkit-keyframes sdb05 {
+	0% {
+		-webkit-transform:  translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform:  translate(0px, 6px);
+		opacity: 0;
+	}
+}
+@keyframes sdb05 {
+	0% {
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: translate(0px, 6px);
+		opacity: 0;
+	}
+}
+

@@ -1,0 +1,104 @@
+
+/* orderform  form header  success  content*/
+
+.orderform {width: 100%;overflow:hidden; clear:both; margin-top:30px; }
+.orderform .form{float:left; display:inline; width: 65%; }
+.orderform .success{float:right; display:inline; width:33%;}
+.orderform .header{height: 40px;line-height:40px; font-weight:bold;font-size:18px; padding-left:10px }
+
+.orderform .form .content{padding:20px; min-height: 500px;border-width:3px;border-style:solid}
+ 
+
+.orderform .success .content{padding:20px; overflow:hidden;border-width:3px;border-style:solid }
+
+
+
+/*formbuy*/
+
+
+.orderform .form ul{clear:both; overflow:hidden; }
+.orderform .form li{clear:both; overflow:hidden; padding:5px 0; }
+.orderform .form .w1{width: 28%;float:left; display:inline;font-size:14px;text-align:right; padding-right:2%  }
+.orderform .form .w2{width: 65%;float:left; display:inline; font-size:14px;}
+.orderform .form .inptext{border:1px solid #ccc;height: 30px;line-height:30px;width: 98% ;padding-left:2% }
+.orderform .form .inpselect{border:1px solid #ccc;height: 30px;line-height:30px;float:left; display:inline; margin-right:10px}
+.orderform .form .inptextarea{height: 60px;width: 100%;  }
+.orderform .form .pay{color:red}
+.orderform .form .price{color:red;font-size:16px;}
+.orderform .form .inpnum span{float:left; display:inline; }
+.orderform .form .inpnum .curnum{width: 30px;text-align:center;  }
+.orderform .form .inpnum  .numfh{width: 20px;height: 30px;line-height:30px; text-align:center;background:#E5E5E5; border:1px solid #ccc;   }
+.orderform .form .submit{text-align:center; height: 50px; margin-top:20px; }
+.orderform .form .inpsubmit{padding:10px 50px; cursor:pointer;border:0; border-radius:8px;font-size:14px;}
+/*orderfinish*/
+.orderfinish{width: 90%;margin:0 auto; font-size:14px;padding-bottom:30px }
+.orderfinish  li{padding:10px; border-bottom:1px solid #ccc; clear:both; overflow:hidden;  }
+.orderfinish .w1{width: 30%;text-align:right;float:left; display:inline;   }
+.orderfinish .w2{width: 60%;float:left; display:inline;  }
+
+.formproduct{margin-bottom:6px; clear:both; overflow:hidden; }
+.formproduct label{float:left; display:inline;  }
+.formproduct .radioprice{float:right; display:inline;color:#666;font-size:14px;  }
+
+/*animate*/
+.animate li{padding:10px 0; clear:both; overflow:hidden; }
+.animate li .pri{color:#999;}
+.animate li .date{color:#999;font-style:italic;}
+
+body{background:none; }
+
+/*@media screen and (max-width:480px) {......}
+@media (max-width: 767px) {......}
+@media (min-width: 768px) and (max-width: 991px){......}
+@media (min-width: 992px) and (max-width: 1199px) {......}
+@media (min-width: 1200px) {......}*/
+
+
+ 
+.pagewrap{width: 1000px; margin:0 auto;  }
+.pagedetail{width: 60%; }
+ @media  (max-width: 1000px) {
+ .pagewrap{width:98%}
+
+ }
+ 
+
+
+ @media  (max-width: 600px) {
+.orderform .form{width:100%; }
+.orderform .success{width:100%; margin:30px 0}
+
+.orderform .success .content{height: 200px;clear:both; overflow:hidden;  }
+.formproduct label{width: 100%; }
+.formproduct .radioprice{width: 100%;text-align:left;  }
+.inpselect{width: 100%;margin-bottom:10px }
+
+ }
+ 
+/* max-width: 480--800px  -------------*/
+@media   (min-width:480px)  and  (max-width: 600px){
+ 
+.animate li .an1{float:left;  display:inline; }
+.animate li .an2{float:right;  display:inline; }
+
+}
+
+/* max-width: 480--600px  -------------*/
+@media   (min-width:480px)  and  (max-width: 600px){
+ 
+}
+/* max-width: 600px  -------------*/
+@media    (max-width: 600px){
+
+
+ 
+}
+/* max-width: 480px  -------------*/
+@media  (max-width:480px) { 
+.orderform .form .content{padding:10px; }
+/*end media*/
+}
+
+
+
+
