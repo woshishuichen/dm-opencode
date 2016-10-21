@@ -7,52 +7,52 @@ if(!defined('IN_DEMOSOSO')) {
 }
 
 
-if($act=="update"){ 
+if($act=="update"){
 			$imgname=$_FILES["addr"]["name"] ;
 			$imgsize=$_FILES["addr"]["size"] ;
-	
+
 		if(!empty($imgname)){
-			$imgtype = gl_imgtype($imgname);		
+			$imgtype = gl_imgtype($imgname);
 			//
-			//$up_water='y';	
+			//$up_water='y';
 			//$up_water='y';	//water value is in inc_logcheck.php of lang talbe
 			   $ifwater=@$_POST['water'];
 				if($ifwater=='y'){$up_water='y';}
 					else $up_water='n';
 					//-------------
 			$up_small='n';
-			$up_delbig='n'; 
-			$i='';			
+			$up_delbig='n';
+			$i='';
 			//$imgsqlname='';//alway change img name,because the kv img
 			require_once('../plugin/upload_img.php');//need get the return value,then upimg part turn to easy.
 
-		
+
 	}//end not empty
 
 	//-------------------------
 		$ss = "update ".TABLE_IMGFJ." set  title='$abc1',dateedit='$dateall'  where id=$tid  $andlangbh limit 1";
 		iquery($ss);
-		
+
 		jump($jumpv_file.'&act=edit&tid='.$tid);
 
 }
-if($act=="edit"){ 
- 
+if($act=="edit"){
+
  $imgsmall2 = p2030_imgyt($imgsqlname,'y','n');  //$imgsmall2 is in pro.php
 ?>
 
 
 
 <h2 class="h2tit_biao"> 修改附件
-<!-- 
+<!--
     modify by kinn start
     多了一个“<”
     没有改，原因是他给留下的Bug，或许对修改程序有帮助
     其他的都改
     modify by kinn end
  -->
- <a href='<?php echo $jumpv;?>'><返回附件管理</a>
- 
+ <a href='<?php echo $jumpv;?>'>返回附件管理</a>
+
 </h2>
 
 <form action="<?php echo $jumpv_file; ?>&act=update&tid=<?php echo $tid?>" method="post" enctype="multipart/form-data">
@@ -79,7 +79,7 @@ if($act=="edit"){
 </p>
        </td>
     </tr>
-    
+
 <tr>
       <td></td>
       <td>
@@ -90,4 +90,3 @@ if($act=="edit"){
 
 <?php } ?>
 
- 
